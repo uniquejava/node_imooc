@@ -9,6 +9,7 @@ http://www.imooc.com/learn/75
     jade
     mongoose
     moment
+    underscore
     bower
     jquery
     bootstrap
@@ -34,5 +35,5 @@ Type `node app.js`
 `bower init` and `npm init`.
 
 ###Todo
-Fix error
+Fix warning
 > body-parser deprecated bodyParser: use individual json/urlencoded middlewares app.js:14:9
