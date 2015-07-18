@@ -1,0 +1,26 @@
+{
+  "name": "node_imooc",
+  "version": "0.0.1",
+  "description": "imooc movie",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "^1.3.5",
+    "express": "^4.13.1",
+    "jade": "^1.11.0",
+    "express-session": "^1.11.3",
+    "moment": "^2.10.3",
+    "mongoose": "^4.0.7",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "imooc"
+  ],
+  "author": "cyper",
+  "license": "ISC"
+}

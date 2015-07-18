@@ -1,0 +1,27 @@
+{
+  "name": "node_imooc",
+  "version": "0.0.1",
+  "authors": [
+    "cyper <345343747@qq.com>"
+  ],
+  "description": "imooc movie",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "imooc",
+    "movie"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
