@@ -24,7 +24,7 @@ Developed with sublime text 2 under Ubuntu.
 Type `node app.js`
 
 |#|module|url|
-|--|--|--|
+|---|---|---|
 |1|home|http://localhost:3000
 |2|add|http://localhost:3000/admin/movie
 |3|detail|http://localhost:3000/movie/:id
@@ -35,4 +35,4 @@ Type `node app.js`
 
 ###Todo
 Fix error
->body-parser deprecated bodyParser: use individual json/urlencoded middlewares app.js:14:9
+> body-parser deprecated bodyParser: use individual json/urlencoded middlewares app.js:14:9
