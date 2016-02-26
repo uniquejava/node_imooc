@@ -15,11 +15,12 @@ http://www.imooc.com/learn/75
     bootstrap
 
 Developed with sublime text 2 under Ubuntu.
+Warning fixed under Mac OS X 10.11 + WebStorm
 
 ###Install
 
-    bower install #front-end
-    npm install #backend
+    bower install
+    npm install
 
 ###Run
 Type `node app.js`
@@ -31,9 +32,6 @@ Type `node app.js`
 |3|detail|http://localhost:3000/movie/:id
 |4|lis|http://localhost:3000/admin/list
 
-###Release
-`bower init` and `npm init`.
-
 ###Todo
-Fix warning
+~~Fix warning~~ done(2016.2.26)
 > body-parser deprecated bodyParser: use individual json/urlencoded middlewares app.js:14:9

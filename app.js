@@ -11,7 +11,9 @@ mongoose.connect('mongodb://localhost/imooc')
 
 app.set('views', './views/pages')
 app.set('view engine', 'jade')
-app.use(bodyParser())
+app.use(bodyParser.urlencoded({
+	extended: true
+}));
 app.use(express.static(path.join(__dirname, 'public')))
 app.locals.moment = require("moment")
 
@@ -32,7 +34,7 @@ app.get('/', function  (req, res) {
 			movies: movies
 		});
 	})
-	
+
 })
 
 
@@ -136,14 +138,14 @@ app.get('/admin/list', function  (req, res) {
 			movies: movies
 		});
 	})
-	
+
 })
 
 app.delete('/admin/list',function(req,res){
 
 	var id = req.query.id
 	console.log("deleting ", id)
-	
+
 	if(id){
 		Movie.remove(id, function(err,movie){
 			if(err){
